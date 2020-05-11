@@ -8,14 +8,16 @@
 const ColorDefaultVariableStyle = {
     white: '#fff',
     black: '#000',
-    primary: '#216bff',
+    milkwhite: '#f3f7f8',
+    primary: '#2980b9',
     secondary: '#ff72b6',
     heading: '#222b45',
-    text: '#8f9bb3',
+    text: '#697684',
     success: '#50bf31',
     info: '#39a0f9',
     warning: '#ffc021',
-    danger: '#ff4f38',
+    danger: '#dc3545',
+    outline: '#2b6ed2',
     primary100: '#d2e7ff',
     primary200: '#a6ccff',
     primary300: '#79afff',
@@ -73,7 +75,20 @@ const ColorDefaultVariableStyle = {
     heading700: '#2e3a59',
     heading900: '#192038',
     heading1000: '#151a30',
-    heading1100: '#101426'
+    heading1100: '#101426',
+    grayR123: '#e9ebed',
+    greyDarkerR123: '#d2d6da',
+    borderR123: '#030303',
+    actionR123: '#c20014',
+    featuredR123: '#00beb3',
+    newPropertyR123: '#ff4f00',
+    premiumR123: '#ffb200',
+    hoverPrimary: '#236d9d',
+    hoverSecondary: '#d2d6da',
+    hoverOutline: '#20282e',
+    hoverDanger: '#a30000',
+    basicCardHeadingR123: '#a5adb5',
+    basicCardContentR123: '#333f48'
 } as const;
 
 export const ColorDefaultKeyVariableStyle: string[] = Object.keys(
