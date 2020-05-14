@@ -1,4 +1,4 @@
-import DefaultTheme from '@/styled-component/theme/default';
+import DefaultTheme from '../../default';
 
 describe('Testing theme variable', () => {
     it('test font variable', () => {
