@@ -1,4 +1,4 @@
-import { ThemeInterface } from '@/styled-component/interfaces/theme.interface';
+import { ThemeInterface } from '../../interfaces/theme.interfaces';
 import ColorDefaultVariableStyle from './color.variable';
 import FontDefaultVariableStyle from './font.variable';
 
